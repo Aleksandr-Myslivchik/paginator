@@ -1,0 +1,27 @@
+.app {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+
+    padding: 0 40px;
+}
+
+.app header,footer{
+    flex: 0 1 auto;
+    padding: 20px 40px;
+}
+
+@media (max-width: 900px){
+    .app header,footer,.main{
+        padding: 20px;
+    }
+
+}
